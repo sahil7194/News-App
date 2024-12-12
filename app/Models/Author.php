@@ -12,4 +12,9 @@ class Author extends Model
     use HasFactory, SoftDeletes ;
 
     protected $guarded = ['id'];
+
+    public function articles()
+    {
+        return $this->hasMany(Article::class);
+    }
 }
