@@ -14,7 +14,7 @@ This repository contains a News App built using **Laravel 11** and **PHP 8.4**, 
 
 -   **Clone the repository:**
 
-    ` git clone https://github.com/your-username/news-app.git`
+    ` git clone [https://github.com/your-username/news-app.git](https://github.com/sahil7194/News-App)`
 
 -   Navigate into the project directory:
 
