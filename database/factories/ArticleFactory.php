@@ -22,7 +22,8 @@ class ArticleFactory extends Factory
             "body" => fake()->paragraph(3),
             "summary" => fake()->sentence(),
             "image_url" => fake()->imageUrl(),
-            "author_id" => Author::inRandomOrder()->first()->id
+            "author_id" => Author::inRandomOrder()->first()->id,
+            "status" => fake()->numberBetween(0, 3)
         ];
     }
 }

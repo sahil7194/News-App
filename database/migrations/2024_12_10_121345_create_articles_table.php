@@ -19,6 +19,7 @@ return new class extends Migration
             $table->string('image_url');
             $table->unsignedInteger('author_id');
             $table->foreign('author_id')->references('id')->on('authors');
+            $table->integer("status");
             $table->timestamps();
             $table->softDeletes();
         });

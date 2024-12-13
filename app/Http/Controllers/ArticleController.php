@@ -15,7 +15,7 @@ class ArticleController extends Controller
      */
     public function index()
     {
-        return  ArticleResource::collection(Article::admin());
+        return  ArticleResource::collection(Article::published()->get());
     }
 
     /**
